@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Real supplier documents — local only
+private-documents/
