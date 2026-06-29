@@ -3,13 +3,13 @@ package com.gabriel.reconciler.domain;
 import java.math.BigDecimal;
 import java.util.Objects;
 
-public record InvoicesLine(
+public record InvoiceLine(
     String supplierProductCode,
     String description,
     BigDecimal actualQuantity,
     BigDecimal actualUnitPrice
 ) {
-    public InvoicesLine {
+    public InvoiceLine {
         Objects.requireNonNull(description, "Description is required");
         Objects.requireNonNull(actualQuantity, "Invoice quantity is required");
         Objects.requireNonNull(actualUnitPrice, "Invoice unit price is required");
