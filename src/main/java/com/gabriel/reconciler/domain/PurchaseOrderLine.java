@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.Objects;
 
 public record PurchaseOrderLine(    
-    String suplierProductCode,
+    String supplierProductCode,
     String description,
     BigDecimal expectedQuantity,
     BigDecimal expectedUnitPrice
